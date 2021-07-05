@@ -31,5 +31,15 @@ new Vue(
                 ]
             }
         },
+        methods:{
+            addPost: function(){
+                this.myProfile.posts.push({
+                    text:this.newPost,
+                    date:'06-07-2021'
+                });
+                this.newPost ='';
+            }
+
+        }
     }
 );

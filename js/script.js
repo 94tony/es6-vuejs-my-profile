@@ -88,7 +88,7 @@ PressButton.addEventListener("click",function(){
     let addPost = `
     <div class="post-details"> 
         <div class="user-pic">
-            <img src="${data.myProfile.details.pic}" alt="user pic">
+            <img src="${data.myProfile.details.pic}" alt="">
         </div>
         <div class="details">
             <div class="user-name">${data.myProfile.details.name} ${data.myProfile.details.surname}</div>
